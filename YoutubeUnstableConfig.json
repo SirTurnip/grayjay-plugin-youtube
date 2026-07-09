@@ -8,7 +8,7 @@
 	"repositoryUrl": "https://gitlab.futo.org/videostreaming/plugins/youtube",
 	"scriptUrl": "./YoutubeScript.js",
 
-	"version": 342,
+	"version": 343,
 	"iconUrl": "./youtube.png",
 	"id": "35ae969a-a7db-11ed-afa1-0242ac120003",
 
@@ -415,6 +415,14 @@
 	"primaryClaimFieldType": 1,
 
 	"changelog": {
+		"343": [
+			"Fix: Live streams"
+        ],
+		"342": [
+			"Fix: Channel livestreams not showing",
+			"Fix: Planned badges not always showing",
+			"Fix: Live stream auto-reloading (when waiting for streamer)"
+        ],
 		"341": [
 			"Fix: LIVE badge for livestream videos",
 			"Fix: Loading playlists"
