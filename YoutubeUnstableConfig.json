@@ -8,7 +8,7 @@
 	"repositoryUrl": "https://gitlab.futo.org/videostreaming/plugins/youtube",
 	"scriptUrl": "./YoutubeScript.js",
 
-	"version": 352,
+	"version": 353,
 	"iconUrl": "./youtube.png",
 	"id": "35ae969a-a7db-11ed-afa1-0242ac120003",
 
@@ -423,6 +423,9 @@
 	"primaryClaimFieldType": 1,
 
 	"changelog": {
+                "353": [
+                        "Feature: Native UMP"
+                ],  
 		"343": [
 			"Fix: Live streams"
         ],
