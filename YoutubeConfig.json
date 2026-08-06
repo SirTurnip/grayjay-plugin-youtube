@@ -1,11 +1,11 @@
 {
-	"name": "Youtube",
+	"name": "Youtube + Comment Profile Block",
 	"description": "One of the biggest video platforms owned by Google",
 	"author": "FUTO",
 	"authorUrl": "https://futo.org",
 	"platformUrl": "https://youtube.com",
-	"sourceUrl": "https://plugins.grayjay.app/Youtube/YoutubeConfig.json",
-	"repositoryUrl": "https://gitlab.futo.org/videostreaming/plugins/youtube",
+	"sourceUrl": "https://raw.githubusercontent.com/SirTurnip/grayjay-plugin-youtube/refs/heads/master/YoutubeConfig.json",
+	"repositoryUrl": "https://github.com/SirTurnip/grayjay-plugin-youtube",
 	"scriptUrl": "./YoutubeScript.js",
 
 	"version": 354,
