@@ -41,7 +41,8 @@
 		"jnn-pa.googleapis.com",
 		".c.youtube.com",
 		"solver.grayjay.app",
-		"solutions.grayjay.app"
+		"solutions.grayjay.app",
+		"api.dicebear.com"
 	],
 
 	"testing": {
@@ -167,6 +168,19 @@
 			"description": "Show messages that give more information about what is happening, might be considered annoying for some.",
 			"type": "Boolean",
 			"default": "false"
+		},
+		{
+			"variable": "commentsProfileBlockHeader",
+			"name": "Comments Profile Image Blocker",
+			"description": "Simply replaces the profile images in the youtube comments section with an avatar\n\n(Using https://api.dicebear.com/10.x/avataaars-neutral)",
+			"type": "Header"
+		},
+		{
+			"variable": "commentsProfileBlock",
+			"name": "Enable",
+			"description": "Use Comments Profile Image Blocker to replace images for comments",
+			"type": "Boolean",
+			"default": "true"
 		},
 		{
 			"variable": "youtubeDislikerHeader",
